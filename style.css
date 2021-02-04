@@ -13,7 +13,7 @@ body {
 body {
     font-family: 'Noto Sans JP', sans-serif;
     color: #515A47;
-    font-size: 30px;
+    font-size: 25px;
     line-height: 1.6;
 }
 
@@ -21,23 +21,24 @@ body {
 h1 {
     font-family: 'Roboto', sans-serif;
     color: #CCC5B9;
-    font-size: 25px;
+    font-size: 28px;
     line-height: 1.6;
   }
 
 
 h2 {
     font-family: 'Noto Sans JP', sans-serif;
-    color: #63A375;
-    font-size: 30px;
-    font-weight: bold;
+    color: #243119;
+    font-size: 25px;
     line-height: 1.6;
+    text-align: initial;
+    font-weight: 600;
 }
 
 h3 {
     font-family: 'Noto Sans JP', sans-serif;
     color: #B0A3D4;
-    font-size: 30px;
+    font-size: 20px;
     line-height: 1.6;
 }
 
@@ -53,28 +54,28 @@ a:hover {
 
 
 .container {
-    width: 800px;
-    margin: 20px auto;
+    width: 700px;
+    margin: 0px auto;
     text-align: center;
 }
 
 .card-top {
-    background-color: #515A47;
+    background-color: white;
     padding: 40px;
     box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
-    border-radius: 4px;
-    /*width:600px;*/
+    border-radius: 10px;
+    /*width:500px;*/
     margin: 20px auto;
     text-align: center;
 }
 
 .card-middle {
-    background-color: white;
+    background-color: #C9F2C7;
     padding: 40px;
     box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
-    border-radius: 4px;
+    border-radius: 10px;
     /*width:600px;*/
-    margin: 20px auto;
+    margin: 30px auto;
     text-align: center;
 }
 
@@ -82,20 +83,21 @@ a:hover {
     background-color: #515A47;
     padding: 40px;
     box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
-    border-radius: 4px;
+    border-radius: 10px;
     /*width:600px;*/
-    margin: 20px auto;
+    margin: 40px auto;
     text-align: center;
 }
 
 
-.btn-blue {
+.btn-black {
     background-color: black;
     color: #B0A3D4;
     padding: 15px 20px;
-    border-radius: 8px;
+    border-radius: 20px;
     text-decoration: none;
-    box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+    box-shadow: 4px 4px 0px #B0A3D4;
+    font-size: 20px
 }
 
 
@@ -107,6 +109,7 @@ a:hover {
 
 .img-circle {
     border-radius: 50%;
+    box-shadow: 4px 4px 0px #B0A3D4;
 }
 
 
